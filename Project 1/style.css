@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:wght@500&display=swap');
+/*font-family: 'Permanent Marker', cursive;
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Roboto Mono', monospace;*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.7rem;
+	align-items: center;
+	position: sticky;
+	top: 0;
+}
+.navbar ul{
+	display: flex;
+
+}
+.navbar ul li{
+	list-style: none;
+
+}
+.navbar ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 1rem;
+	align-items: center;
+	font-family: 'Roboto Mono', monospace;
+}
+.navbar ul li a:hover{
+	background:#1ABC9C;
+}
+.logo{
+	font-family: 'Permanent Marker', cursive;
+}
+.color-text{
+	color: #F39C12; 
+}
+.header{
+	background: url('city.jpg');
+	height :90vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;  
+}
+.header div{
+	color: white;
+	background: rgba(0,0,0,0.7);
+	height: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.head-text1{
+	font-size: 4rem;
+	margin-bottom: 0.6rem;
+}
+.para-text1{
+	font-size: 1.2rem;
+	margin-bottom: 1rem;	
+}
+.btn{
+	background-color: #F39C12;
+	color: white;
+	padding: 0.9rem;
+	border: none;
+	width: 6.3rem;
+}
+#Camera{
+	display: flex;
+	flex: 1;
+}
+.container{
+	margin: 10px auto;
+	width: 74rem;
+}
+.Camera-h3{
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+}
+.cards-p{
+	font-size: 1rem;
+	margin: 10px auto;
+}
+.cards{
+	text-align: center;
+	font-family: 'Noto Sans TC', sans-serif;
+	padding: 1.3rem;
+}
+.cards i{
+	color: #F39C12;
+}
+#About{
+	background: url('light.jpg');
+	height: 70vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#About div{
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+}
+.About-h1{
+	color: #F39C12;
+	text-align: right;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 4rem;
+	padding: 4rem 6rem 0rem 45rem;
+}
+.About-p{
+	color: white;
+	text-align: right;
+	font-family: 'Noto Sans TC', sans-serif;
+	padding: 1rem 6rem 0rem 56rem;
+	font-size: 1.2rem;
+}
+.About-btn{
+	background-color: #F39C12;
+	color: white;
+	padding: 0.5rem;
+	border: none;
+	width: 5.6rem;
+	margin:1rem 6rem 0rem 0rem;
+	float: right; 
+}
+#img{
+	background: url('adventure.png');
+	height: 100vh;
+	background-size: cover;
+	height: 50rem;
+	width: 60rem;
+}
+.from{
+	text-align: right;
+	margin-left: 63rem;
+	margin-top: 9.5rem; 
+}
+input{
+	height: 3.5rem;
+	width: 30rem;
+	border: 3px solid #F39C12;
+	border-radius: 35px;
+}
+.f-h1{
+	font-size: 3.5rem;
+	color: #F39C12;
+	font-family: 'Roboto Mono', monospace;
+	padding-left: 43rem; 
+}
+label{
+	font-size: 1rem;
+	color: #F39C12;
+	font-family: 'Roboto Mono', monospace;
+}
+.f-btn{
+	background-color: #F39C12;
+	padding: 0.6rem;
+	width: 5.6rem;
+	margin-top: 1rem;
+	color: white;
+	border-radius:25px;
+	border-style: none; 
+}
+footer{
+	/*background-color: #0F0900 ;*/
+	background-color: #D68910;
+	color: white;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.1rem;
+}
+.foot-text{
+	color: black;
+}
